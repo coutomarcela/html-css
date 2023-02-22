@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e Âncoras</title>
+</head>
+<body>
+    <h1>Usando links externos</h1> <!--acesso a outros sites que não são meus-->
+    <p>Você pode acessar meu <a href="https://github.com/coutomarcela" target="_blank" rel="external">repositório público no GitHub</a></p> <!--tag a permite colocar link, href é para colocar a url, target _blank é para abrir o link em nova janela, rel é relativo a external pq link é externo-->
+
+    <h1>Usando links internos</h1> <!--ligação com outra página dentro do meu servidor e que diz respeito à própria página-->
+    <p>Esta é a primeira página do site. Se você quiser, também pode acessar minha <a href="pag002.html" rel="next">segunda página.</a></p> <!--segurando ctrl + espaço o VSCODE mostra as páginas disponíveis  //  rel = next diz qual é a próxima página, influencia na busca do google // target _self para abrir na mesma janela-->
+    <p>Você também pode acessar nossa <a href="noticias/pag003.html" rel="next">página de notícias</a></p>
+
+<h1>Links para download</h1>
+<ul>
+    <li><a href="livro/Freud, S. (1917). Luto e melancolia.pdf" download="Freud, S. (1917). Luto e melancolia.pdf" type="application/pdf">Baixar o livro em PDF    </a></li>
+    <li><a href="livro/Freud, S. (1917). Luto e melancolia.zip" download="Freud, S. (1917). Luto e melancolia.zip" type="application/zip">Livro compactado em ZIP</a></li>
+</ul>
+</body>
+</html>
