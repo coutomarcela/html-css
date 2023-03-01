@@ -12,11 +12,20 @@
             background-image: url("imagens/wallpaper002.jpg");
             background-position: center top;
             background-repeat: no-repeat;
-            background-size: cover; \*qndo usa contain a imagem é 100% exibida mas mostra fundo caso diminua a janela dms*\
+            background-size: cover; /*com con-tain imagem é 100% exibida mas mostra fundo caso diminua a janela dms*/
+            background-attachment: fixed; /**resultado observado qndo usar junto com cover**/
+
+           /** 
+           Shorthand - Background 
+           Ordem: color -> image -> position -> repeat > [size] > attchment
+
+           background: black url("imagens/wallpaper002.jpg") center center no-repeat cover fixed
+           
+           **/
         }
-        main{
+        main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 15px;
             border-radius: 20px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,7 +41,7 @@
 <body>
     <main>
         <h1>Teste de Imagens de Fundo</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, ratione dolore soluta ducimus tempore maxime accusantium dolorum sequi hic facere? Facilis dolorum amet recusandae quo atque? Culpa aliquid aperiam voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem enim quos dicta aliquam praesentium repellendus iusto expedita amet ad rerum! Culpa odit perspiciatis eos numquam! Dicta veritatis eaque odit voluptate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus neque reprehenderit distinctio incidunt eveniet dolor iure modi, illum illo, molestiae quasi ea architecto, aut placeat enim praesentium voluptatibus iusto eos?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, ratione dolore soluta ducimus tempore maxime accusantium dolorum sequi hic facere? Facilis dolorum amet recusandae quo atque? Culpa aliquid aperiam voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem enim quos dicta aliquam praesentium repellendus iusto expedita amet ad rerum! Culpa odit perspiciatis eos numquam! Dicta veritatis eaque odit voluptate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus neque reprehenderit distinctio incidunt eveniet dolor iure modi, illum illo, molestiae quasi ea architecto, aut placeat enim praesentium voluptatibus iusto eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolorum praesentium exercitationem, minus harum a, atque odio libero, delectus quo repellat sequi? Ipsam aliquid iusto molestias, nostrum id libero sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores optio quae adipisci architecto. Consectetur, voluptas? Nam temporibus laudantium nulla voluptatem molestias impedit! Vitae tempora consequatur voluptatem, veritatis commodi assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quo expedita recusandae unde in molestias laudantium optio quia soluta quibusdam incidunt aperiam laboriosam commodi distinctio, et esse accusamus rerum sit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat perferendis delectus, mollitia molestiae voluptate, soluta quos recusandae ipsam unde dolor nisi sunt, dolores officiis accusantium! Architecto aliquam cumque recusandae soluta?</p>
     </main>
     
 </body>
