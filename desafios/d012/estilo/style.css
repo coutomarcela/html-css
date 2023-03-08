@@ -76,7 +76,7 @@ section.imagem > p {
 
 section#saudade{
     text-align: right;
-    padding-right: 10vh;
+    padding: 0vh 5vh 10vh 0vh;
 }
 
 section#img01 {
